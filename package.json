@@ -1,0 +1,25 @@
+{
+  "name": "quack-server",
+  "version": "0.0.0",
+  "description": "Quack Chat Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bleupen/quack-server"
+  },
+  "author": "Brad Leupen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bleupen/quack-server/issues"
+  },
+  "homepage": "https://github.com/bleupen/quack-server",
+  "dependencies": {
+    "hapi": "^4.1.4",
+    "socket.io": "^0.9.16"
+  },
+  "devDependencies": {}
+}
